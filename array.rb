@@ -1,9 +1,9 @@
-cats = ["coco", "milo", "max"]
-
-puts "my cat #{cats[0]} is mean and scratches me in the face"
-
-cats.each do |name|
-  puts "my cat #{name} is nice and doesn't scratch me anymore"
+class Car 
+  def intialize(make, year)
+    @make=make
+  end
 end
-
-cats<< "dana"
+  
+  car1= Car.new("Jeep")
+  car2= Car.new("Lexus")
+  puts "I love my car #{car1.make}"
